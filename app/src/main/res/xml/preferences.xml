@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <androidx.preference.PreferenceCategory
+        android:layout="@layout/preference_title_layout"
+        android:title="General">
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/dark_theme_settings"
+            android:title="@string/dark_theme" />
+
+        <ListPreference
+            android:defaultValue="0"
+            android:dialogTitle="@string/currency_type"
+            android:entries="@array/currency_types_array"
+            android:entryValues="@array/currency_indexes"
+            android:key="@string/currency_selection"
+            android:summary="@string/choose_currency"
+            android:title="@string/currency_type" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/welcome_page_key_settings"
+            android:title="@string/welcome_page_settings" />
+
+        <SwitchPreference
+            android:defaultValue="true"
+            android:key="@string/mobile_data_usage_settings"
+            android:summary="@string/data_usage_summary"
+            android:title="@string/limit_data_usage" />
+
+        <ListPreference
+            android:defaultValue="2"
+            android:dialogTitle="@string/post_refresh_time"
+            android:entries="@array/post_refresh_times_array"
+            android:entryValues="@array/post_refresh_time_indexes"
+            android:key="@string/post_refresh_time_settings_key"
+            android:summary="Choose when to refresh posts"
+            android:title="@string/post_refresh_time" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/chat_bot_settings_summary_key"
+            android:summary="@string/chat_bot_settings_summary"
+            android:title="@string/chat_bot_settings" />
+    </androidx.preference.PreferenceCategory>
+</androidx.preference.PreferenceScreen>
+
+
+

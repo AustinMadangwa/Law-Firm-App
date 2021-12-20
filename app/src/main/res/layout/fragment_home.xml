@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whiteLight"
+    android:orientation="horizontal"
+    tools:context=".BottomNavigationBarFragments.HomeFragment">
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/tvHomeWelcome"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:gravity="center_vertical"-->
+<!--        android:text="@string/welcoming"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Medium"-->
+<!--        android:textColor="#616161"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent" />-->
+
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView4"-->
+<!--        android:layout_width="0dp"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_marginStart="16dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_weight="1"-->
+<!--        android:text="@string/firm_name"-->
+<!--        android:textAppearance="@style/TextAppearance.AppCompat.Large"-->
+<!--        android:textColor="@color/black"-->
+<!--        android:textStyle="normal|bold"-->
+<!--        app:layout_constraintStart_toStartOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/tvHomeWelcome" />-->
+
+<!--    <androidx.cardview.widget.CardView-->
+<!--        android:id="@+id/cardView"-->
+<!--        android:layout_width="60dp"-->
+<!--        android:layout_height="60dp"-->
+<!--        android:layout_marginTop="8dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        app:cardBackgroundColor="@color/blueLight"-->
+<!--        app:cardCornerRadius="15dp"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toTopOf="parent">-->
+
+<!--        <ImageView-->
+<!--            android:id="@+id/imageView"-->
+<!--            android:layout_width="60dp"-->
+<!--            android:layout_height="60dp"-->
+<!--            android:contentDescription="@string/company_logo"-->
+<!--            android:scaleType="centerCrop"-->
+<!--            app:srcCompat="@drawable/cat" />-->
+<!--    </androidx.cardview.widget.CardView>-->
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/editTextTextPersonName"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:autofillHints=""
+        android:drawablePadding="4dp"
+        android:ems="10"
+        android:hint="@string/search_posts"
+        android:inputType="textPersonName"
+        android:textColor="@color/blueLight"
+        android:textColorHint="#546E7A"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:startIconDrawable="@drawable/search">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="#546E7A"
+            tools:ignore="TextContrastCheck" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <!--    <EditText-->
+    <!--        android:id="@+id/editTextTextPersonName"-->
+    <!--        android:layout_width="0dp"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_marginStart="16dp"-->
+    <!--        android:layout_marginTop="16dp"-->
+    <!--        android:layout_marginEnd="12dp"-->
+    <!--        android:drawableStart="@drawable/search"-->
+    <!--        android:drawablePadding="4dp"-->
+    <!--        android:autofillHints=""-->
+    <!--        android:ems="10"-->
+    <!--        android:hint="@string/search_posts"-->
+    <!--        android:inputType="textPersonName"-->
+    <!--        android:minHeight="48dp"-->
+    <!--        android:textColor="@color/blueLight"-->
+    <!--        android:textColorHint="#546E7A"-->
+    <!--        app:layout_constraintEnd_toStartOf="@+id/btnHomeSearch"-->
+    <!--        app:layout_constraintStart_toStartOf="parent"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/textView4" />-->
+
+
+<!--    <com.google.android.material.button.MaterialButton-->
+<!--        android:id="@+id/btnHomeSearch"-->
+<!--        style="@style/Widget.MaterialComponents.Button.TextButton"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="50dp"-->
+<!--        android:layout_marginTop="17dp"-->
+<!--        android:layout_marginEnd="16dp"-->
+<!--        android:contentDescription="@string/search_button"-->
+<!--        app:cardCornerRadius="15dp"-->
+<!--        android:text="@string/search"-->
+<!--        app:layout_constraintEnd_toEndOf="parent"-->
+<!--        app:layout_constraintTop_toBottomOf="@+id/cardView"-->
+<!--        tools:ignore="RedundantDescriptionCheck" />-->
+
+    <TextView
+        android:id="@+id/recentPostsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/recent_posts"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+        android:textColor="@color/black"
+        android:fontFamily="@font/opensans_bold"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recentPostsRV"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="16dp"
+        android:layoutDirection="inherit"
+        android:orientation="horizontal"
+        android:scrollbars="none"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recentPostsTV" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

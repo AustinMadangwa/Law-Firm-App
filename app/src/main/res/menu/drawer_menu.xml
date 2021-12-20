@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/nav_drawer_admin"
+            android:icon="@drawable/user"
+            android:title="@string/admin"
+            />
+        <item
+            android:id="@+id/nav_drawer_settings"
+            android:icon="@drawable/settings_cool"
+            android:title="@string/settings"
+            />
+        <item
+            android:id="@+id/nav_drawer_help"
+            android:icon="@drawable/help_cool"
+            android:title="@string/help"
+            />
+        <item
+            android:id="@+id/nav_drawer_exit"
+            android:icon="@drawable/logout"
+            android:title="@string/exit"
+            />
+    </group>
+</menu>

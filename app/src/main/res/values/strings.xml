@@ -1,0 +1,207 @@
+<resources>
+    <string name="app_name">Kanox</string>
+    <string name="contact">Booking</string>
+    <string name="chatbot">ChatBot</string>
+    <string name="faq">FAQ</string>
+    <string name="payment">Payment</string>
+    <string name="home">Home</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="next_page">Next Page</string>
+
+    <string name="next">NEXT</string>
+    <string name="skip">SKIP</string>
+    <string name="start">GOT IT</string>
+
+    <string name="slide_1_title">Our Vision</string>
+    <string name="slide_1_desc">To be a competitive, cost effective, and innovative legal advisory service provider.</string>
+
+    <string name="slide_2_title">Our Mission</string>
+    <string name="slide_2_desc">To achieve client satisfaction by diligently providing timely, cost effective,
+    practical and innovative legal solutions.</string>
+
+    <string name="slide_3_title">Great Discounts</string>
+    <string name="slide_3_desc">Best discounts on every single service we offer!</string>
+
+    <string name="slide_4_title">International Coverage</string>
+    <string name="slide_4_desc">We can still support you abroad!</string>
+
+    <string name="play_again_desc">To see the welcome slider again, goto Settings -> apps -> welcome slider -> clear data</string>
+    <string name="play_again">Play Again</string>
+    <string name="welcome_image_description">Welcome Image Description</string>
+    <string name="faq_name">How can we assist\nyou?</string>
+    <string name="welcome">Hello.\nWelcome Back</string>
+
+    <string name="welcoming">Welcome</string>
+    <string name="email_username">EMAIL/USERNAME</string>
+    <string name="password">PASSWORD</string>
+    <string name="forgot_password">forgot password?</string>
+    <string name="login">Login</string>
+    <string name="create_account">Create Account</string>
+    <string name="frequently_asked_questions">Frequently Asked Questions</string>
+    <string name="firm_name">Law Firm</string>
+    <string name="company_logo">company logo</string>
+    <string name="search_posts">Search Posts</string>
+    <string name="search_button">search button</string>
+    <string name="popular_posts">Popular Posts</string>
+    <string name="read_more">Read More</string>
+    <string name="new_laws">New Laws</string>
+    <string name="here_are_the_newly">Here are the newly appointed laws.</string>
+    <string name="post_picture">post picture</string>
+    <string name="recent_posts">Recent Posts</string>
+    <string name="email">email</string>
+    <string name="password_hint">password</string>
+    <string name="search">Search</string>
+    <string name="nav_open_drawer">Open navigation drawer</string>
+    <string name="nav_close_drawer">Close navigation drawer</string>
+    <string name="admin">Admin</string>
+    <string name="settings">Settings</string>
+    <string name="help">Help</string>
+    <string name="exit">Exit</string>
+    <string name="nameless_title"> </string>
+    <string name="name">NAME</string>
+    <string name="name_hint">name</string>
+    <string name="payment_email">EMAIL</string>
+    <string name="payment_email_hint">email</string>
+    <string name="phone_number">PHONE NUMBER</string>
+    <string name="phone_number_hint">number</string>
+    <string name="case_type">CASE TYPE</string>
+    <string name="payment_method">PAYMENT METHOD</string>
+    <string-array name="case_types_array">
+        <item>Arbitration</item>
+        <item>Authentication</item>
+        <item>Aviation Law</item>
+        <item>Criminal Law</item>
+        <item>Labour Law</item>
+        <item>Dept Recovery</item>
+        <item>Conveyancing</item>
+        <item>Child and Family Law</item>
+    </string-array>
+
+    <string-array name="payment_method_array">
+        <item>Ecocash</item>
+        <item>Cash</item>
+        <item>Bank Transfer</item>
+        <item>Zipit</item>
+        <item>PayPal</item>
+        <item>BitCoin</item>
+    </string-array>
+    <string name="btn_pay">Pay</string>
+    <string name="make_a_payment">Make a payment</string>
+    <string name="get_in_touch_with_us">Get in touch with us\nOn social media</string>
+    <string name="social_media_picture">Social media picture</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="snapchat">SnapChat</string>
+    <string name="contact_us_icon_click">contact us icon click</string>
+    <string name="spinner_down_arrow">spinner down arrow</string>
+    <string name="post_image_description">post image description</string>
+    <string name="admin_section">Admin Section</string>
+    <string name="help_center">Help Center</string>
+    <string name="kanokanga_law_firm">Kanox Lawyers</string>
+    <string name="about_us">We\'re here for you!</string>
+    <string name="chats">Chats</string>
+    <string name="recent_chats">Recent Chats</string>
+    <string name="active">Active</string>
+    <string name="test_name">Austin Miles</string>
+    <string name="test_message">How are your my sister?</string>
+    <string name="test_time">3m</string>
+    <string name="chat_user_image">chat user image</string>
+    <string name="help_type_icon">help type icon</string>
+    <string name="contacts">Contacts</string>
+    <string name="call">Call</string>
+    <string name="emmail">Email</string>
+    <string name="feedback">Send Feedback</string>
+    <string name="our_website">Our Website</string>
+    <string name="other_info">Other Info</string>
+    <string name="opening_hours">0800 – 1645hrs Mon-Fri</string>
+    <string name="call_num_1">+263 (242) 781 439</string>
+    <string name="call_num_2">+263 (242) 756 681</string>
+    <string name="call_num_3">+263 (242) 781 439</string>
+
+
+    <!--    Settings Text-->
+    <string name="currency_type">Currency Type</string>
+    <string-array name="currency_types_array">
+        <item>USD</item>
+        <item>Rands</item>
+        <item>Pounds</item>
+        <item>RMB</item>
+        <item>Yens</item>
+        <item>Euro</item>
+        <item>Pula</item>
+        <item>Kwacha</item>
+        <item>RTGS</item>
+    </string-array>
+    <string-array name="currency_indexes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string name="currency_selection">currency_selection</string>
+    <string name="welcome_page_settings">View the welcome page</string>
+    <string name="welcome_page_key_settings">welcome_page_key</string>
+    <string name="mobile_data_usage_settings">mobile_data_usage_settings</string>
+    <string name="limit_data_usage">Limit mobile data usage</string>
+    <string name="data_usage_summary">Auto refresh posts only on WiFi.</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="dark_theme_settings">dark_theme_settings</string>
+    <string name="choose_currency">Choose your currency type</string>
+    <string name="chat_bot_settings">Share data with our chat-bot</string>
+    <string name="chat_bot_settings_summary">Allow our chat-bot to learn from you</string>
+    <string name="chat_bot_settings_summary_key">chat_bot_settings_summary_key</string>
+    <string name="post_refresh_time">Posts refreshing time</string>
+    <string name="post_refresh_time_settings_key">post_refresh_time_settings_key</string>
+
+    <string-array name="post_refresh_times_array">
+        <item>1 hours</item>
+        <item>2 hours</item>
+        <item>3 hours</item>
+        <item>5 hours</item>
+        <item>10 hours</item>
+    </string-array>
+
+    <string-array name="post_refresh_time_indexes">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="author_avatar">author avatar</string>
+    <string name="follow">Follow</string>
+
+
+    <string name="postBodyTest">On the 10th June 2020 the Minister of Justice, Legal and Parliamentary Affairs presented the Marriages Bill to the Senate. In presenting the Bill, he spoke about lobola. He is quoted as having said: “The transfer of marriage consideration (lobola) in our indigenous culture traditionally solidified bonds between families, but a disturbing trend has developed over time to commoditise or monetize the marriage relationship for material gain. Some guardians of brides hold out for the highest possible gain for themselves, while others refuse consent to the formalization of marriage until the last cent of the marriage consideration is paid. This is why so many of our customary and non-customary marriages are unregistered. To solve this issue, the Bill will no longer require a customary marriage officer to satisfy himself or herself that there has been an agreement in the transfer of marriage consideration.”</string>
+    <string name="payment_details_page">Payment Details</string>
+    <string name="confirm_your_details">Confirm Your Details</string>
+    <string name="pay_name">Name:</string>
+    <string name="pay_email">Email:</string>
+    <string name="pay_number">Number:</string>
+    <string name="pay_case_type">Case Type:</string>
+    <string name="pay_payment_method">Payment Method:</string>
+    <string name="pay_amount">Amount:</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="edit">Edit</string>
+</resources>

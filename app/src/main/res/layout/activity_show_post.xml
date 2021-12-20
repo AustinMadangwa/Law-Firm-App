@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/whiteLight"
+        android:orientation="vertical"
+        tools:context=".Activities.ShowPostActivity">
+
+
+        <com.github.siyamed.shapeimageview.mask.PorterShapeImageView
+            android:id="@+id/postImageIV"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/law"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:siShape="@drawable/post_image_background"
+            app:siSquare="false" />
+
+        <ImageView
+            android:id="@+id/imageView10"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="@string/author_avatar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/postImageIV"
+            app:srcCompat="@drawable/man" />
+
+        <TextView
+            android:id="@+id/postAuthor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="18dp"
+            android:text="@string/test_name"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            android:textColor="@color/black"
+            android:textStyle="normal|bold"
+            android:fontFamily="@font/opensans_bold"
+            app:layout_constraintStart_toEndOf="@+id/imageView10"
+            app:layout_constraintTop_toBottomOf="@+id/postImageIV" />
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="21dp"
+            android:text="@string/follow"
+            android:textStyle="bold"
+            android:fontFamily="@font/opensans_bold"
+            app:layout_constraintStart_toEndOf="@+id/postAuthor"
+            app:layout_constraintTop_toBottomOf="@+id/postImageIV" />
+
+        <TextView
+            android:id="@+id/postTitleTV"
+            style="@style/TextAppearance.AppCompat.Large"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:gravity="center_vertical"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:fontFamily="@font/opensans_bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/postAuthor" />
+
+        <TextView
+            android:id="@+id/postDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:textAllCaps="true"
+            android:textStyle="normal|bold"
+            android:fontFamily="@font/opensans_bold"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/postTitleTV" />
+
+        <TextView
+            android:id="@+id/postTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:text="10:30 am"
+            android:textStyle="bold"
+            android:fontFamily="@font/opensans_bold"
+            app:layout_constraintStart_toEndOf="@+id/postDate"
+            app:layout_constraintTop_toBottomOf="@+id/postTitleTV" />
+
+        <TextView
+            android:id="@+id/postBodyTV"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:paddingBottom="16dp"
+            android:text="@string/postBodyTest"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/postDate" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

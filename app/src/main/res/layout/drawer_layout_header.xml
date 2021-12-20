@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/law"
+        android:contentDescription="@string/company_logo" />
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|start"
+        android:layout_margin="8dp"
+        android:background="#00000000"
+        android:gravity="bottom|start"
+        android:orientation="vertical">
+        <io.alterac.blurkit.BlurLayout
+            android:id="@+id/drawerHeaderBlur"
+            android:layout_width="wrap_content"
+            android:padding="10dp"
+            android:layout_height="wrap_content"
+            app:blk_fps="0"
+            app:blk_blurRadius="12"
+            app:blk_cornerRadius="1dp"
+            app:blk_downscaleFactor="0.12">
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/kanokanga_law_firm"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/opensans_bold"
+                    android:textColor="@color/whiteLight"
+                    android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/whiteLight"
+                    android:text="@string/about_us"
+                    android:textSize="11sp"
+                    tools:ignore="SmallSp" />
+            </LinearLayout>
+        </io.alterac.blurkit.BlurLayout>
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</FrameLayout>
+

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources  xmlns:tools="http://schemas.android.com/tools">
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blueLight</item>
+        <item name="colorPrimaryVariant">@color/blueDark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/whiteLight</item>
+        <item name="colorSecondaryVariant">@color/whiteDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="windowNoTitle">true</item>
+
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorSecondary</item>
+        <item name="drawerArrowStyle">@style/DrawerHamburgerStyle</item>
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+        <item name="switchStyle">@style/Widget.App.Switch</item>
+
+    <!--switch controls color-->
+        <!-- Active thumb color & Active track color(30% transparency) -->
+        <item name="colorControlActivated">@color/blueLight</item>
+        <!-- Inactive thumb color -->
+        <item name="colorSwitchThumbNormal">@color/blueDark</item>
+        <item name="fontFamily">@font/opensans_regular</item>
+        <!-- Inactive track color(30% transparency) -->
+<!--        <item name="android:colorForeground">@color/blueLight</item>-->
+        ...
+    </style>
+
+
+    <style name="SinglePagesTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/blueLight</item>
+        <item name="colorPrimaryVariant">@color/blueDark</item>
+        <item name="colorOnPrimary">@color/black</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/whiteLight</item>
+        <item name="colorSecondaryVariant">@color/whiteDark</item>
+        <item name="colorOnSecondary">@color/black</item>
+        <item name="windowNoTitle">true</item>
+
+        <!-- Status bar color. -->
+        <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
+        <item name="drawerArrowStyle">@style/DrawerHamburgerStyle</item>
+        <item name="actionOverflowButtonStyle">@style/DotsDarkTheme</item>
+        <item name="switchStyle">@style/Widget.App.Switch</item>
+        <item name="fontFamily">@font/opensans_regular</item>
+<!--        <item name="homeAsUpIndicator">@style/WhiteBackArrow</item>-->
+
+
+    </style>
+
+
+
+<!--    Action Bar toggle button style-->
+    <style name="DrawerHamburgerStyle" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@android:color/black</item>
+    </style>
+
+    <style name="DrawerHamburgerStyleWhite" parent="@style/Widget.AppCompat.DrawerArrowToggle">
+        <item name="spinBars">true</item>
+        <item name="color">@color/whiteLight</item>
+    </style>
+
+
+
+    <style name="DotsDarkTheme" parent="Widget.AppCompat.Light.ActionButton.Overflow" >
+        <item name="android:tint">@color/black</item>
+    </style>
+
+
+<!--    back arrow styles-->
+    <style name="BlackBackArrow" parent="android:Theme.Holo">
+        <item name="android:homeAsUpIndicator">@drawable/right_arrow</item>
+    </style>
+    <style name="WhiteBackArrow" parent="android:Theme.Holo">
+        <item name="android:homeAsUpIndicator">@drawable/back_arrow</item>
+    </style>
+
+    <!--    switch controls styles-->
+    <style name="Widget.App.Switch" parent="Widget.MaterialComponents.CompoundButton.Switch">
+        <item name="materialThemeOverlay">@style/ThemeOverlay.App.Switch</item>
+    </style>
+    <style name="ThemeOverlay.App.Switch" parent="">
+        <item name="colorOnSurface">@color/blueDark</item>
+        <item name="colorSecondary">@color/blueLight</item>
+    </style>
+</resources>

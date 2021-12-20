@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/b_menu_home"
+        android:enabled="true"
+        android:icon="@drawable/home_cool"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/b_menu_contact"
+        android:enabled="true"
+        android:icon="@drawable/social"
+        android:title="@string/contact" />
+    <item
+        android:id="@+id/b_menu_chatbot"
+        android:enabled="true"
+        android:icon="@drawable/chat_cool"
+        android:title="@string/chatbot" />
+    <item
+        android:id="@+id/b_menu_pay"
+        android:enabled="true"
+        android:icon="@drawable/money"
+        android:title="@string/payment" />
+    <item
+        android:id="@+id/b_menu_faq"
+        android:enabled="true"
+        android:icon="@drawable/faq_cool"
+        android:title="@string/faq" />
+</menu>
